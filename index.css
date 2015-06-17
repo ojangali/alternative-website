@@ -1,3 +1,6 @@
+@import url(http://fonts.googleapis.com/css?family=Poppins:400,600&subset=latin,latin-ext);
+
+
 body {
   background-color: white;
   background-image: url('http://fc01.deviantart.net/fs70/i/2011/021/7/9/persian_calligraphy___bird_by_frdfrg-d37pd7o.jpg');
@@ -6,12 +9,23 @@ body {
   height: 110vh;
   margin-bottom: 100px;
 }
+#name{
+  font-family: 'Poppins', sans-serif;
+}
+#gitPic {
+  margin-left: 0px;
+}
+#bottomtitle {
+  margin-left: -240px;
+}
+
 #list {
   margin-left: -35px;
 }
 .navbar-default {
-  background-color: #39b3cf;
+  background-color: #000405;
   color: white;
+  font-family: 'Poppins', sans-serif;
 }
 .navbar-default .navbar-text,
 .navbar-default .navbar-nav > li > a,
@@ -22,44 +36,23 @@ body {
   margin: 50px 75px 150px 75px;
   padding: 20px;
   background-color: rgba(213, 223, 215, 0.92);
+  font-family: 'Poppins', sans-serif;
 }
-.list {
+.bottomsection{
+  margin: 50px 75px 150px 75px;
+  padding: 20px;
+  background-color: rgba(213, 223, 215, 0.92);
+  font-family: 'Poppins', sans-serif;
+  font-size: 150%;
+}
+.list{
   display: block;
+  font-family: 'Poppins', sans-serif;
 }
-#photo {
+#photo{
   padding: 20px;
 }
 .center {
   text-align: center;
-}
-#projectlist .desc {
-  font-size: 14px;
-  margin: 5px;
-}
-#projectlist button {
-  margin: 10px;
-}
-#projectlist img {
-  width: 250px;
-}
-#projectlist .btmbutton {
-  background-color: rgba(132, 200, 246, 0.4);
-  border-radius: 50px;
-  padding: 5px 25px;
-}
-#projectlist .project-head {
-  letter-spacing: 2px;
-  padding: 5px;
-  font-size: 15px;
-  margin: 0 35px;
-}
-#projectview li {
-  display: inline;
-  margin: 0 10px;
-}
-#projectview img {
-  width: 350px;
-}
-#projectview p {
-  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
 }
